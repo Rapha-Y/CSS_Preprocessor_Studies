@@ -9,3 +9,17 @@ body {
     background: @background-color;
     line-height: @line-height;
 }
+
+.primary-text {
+    color: @primary-color;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 0;
+}
+
+.primary-btn:extend(.btn) {
+    background: @primary-color;
+    color: #fff;
+}
