@@ -79,3 +79,12 @@ h2 {
     @include bordered(red, 4px);
     @include spacing($mar: 16px);
 }
+
+.to-be-extended {
+    background: yellow;
+}
+
+.extend-examples {
+    @extend .to-be-extended;
+    color: red;
+}
