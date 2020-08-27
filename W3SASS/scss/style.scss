@@ -1,0 +1,27 @@
+$myFont: Courier;
+$myColor: purple;
+$myBgColor: pink;
+$myFontSize: 18px;
+$myWidth: 512px;
+
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+}
+
+.container {
+    width: $myWidth;
+    background: $myBgColor;
+}
+
+p {
+    $myColor: green;
+    $myColor: orange !global; /* Overrides $myColor */
+
+    color: $myColor;
+}
+
+h2 {
+    color: $myColor;
+}
