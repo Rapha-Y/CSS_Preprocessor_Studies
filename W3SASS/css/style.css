@@ -1,1 +1,1 @@
-body{font-family:Courier;font-size:18px;color:purple}.container{width:512px;background:pink}p{color:green}h2{color:orange}
+body{font-family:Courier;font-size:18px;color:purple}.container{width:512px;background:pink}p{color:green}h2{color:orange}.nesting-examples .paragraph-1{background:lightgray}.nesting-examples .paragraph-2{background:orange}.nesting-examples .paragraph-3{background:yellow}.prefix-examples{font-family:sans-serif;font-size:12px;font-weight:bold;text-align:center;text-transform:lowercase}

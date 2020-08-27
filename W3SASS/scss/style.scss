@@ -25,3 +25,28 @@ p {
 h2 {
     color: $myColor;
 }
+
+.nesting-examples {
+    .paragraph-1 {
+        background: lightgray;
+    }
+    .paragraph-2 {
+        background: orange;
+    }
+    .paragraph-3 {
+        background: yellow;
+    }
+}
+
+.prefix-examples {
+    font: {
+        family: sans-serif;
+        size: 12px;
+        weight: bold;
+    }
+
+    text: {
+        align: center;
+        transform: lowercase;
+    }
+}
