@@ -57,3 +57,25 @@ h2 {
     color: $sampleColor;
     background: $sampleBg;
 }
+
+@mixin angry-text {
+    color: red;
+    background: pink;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+}
+
+@mixin spacing($pad: 8px, $mar: 8px) {
+    padding: $pad;
+    margin: $mar;
+}
+
+.mixin-examples {
+    @include angry-text;
+    @include bordered(red, 4px);
+    @include spacing($mar: 16px);
+}
