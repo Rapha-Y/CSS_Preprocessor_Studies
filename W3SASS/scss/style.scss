@@ -50,3 +50,10 @@ h2 {
         transform: lowercase;
     }
 }
+
+@import 'importExample';
+
+.import-examples {
+    color: $sampleColor;
+    background: $sampleBg;
+}
